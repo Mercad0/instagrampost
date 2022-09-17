@@ -1,0 +1,71 @@
+/* * { border: 0.5px dashed red; min-height: 10px;} */
+body {
+    background: black;
+    font-family: Roboto Flex;
+    /* sans-serif; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    width: 500px;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+
+.fa-brands {
+    position: absolute;
+    margin-left: 5px;
+    padding-top: 10px;
+}
+
+.logo-name {
+    position: relative;
+    left: 35px;
+    bottom: 35px;
+
+}
+
+.name {
+    position: relative;
+    left: 35px;
+    bottom: 35px;
+    margin-bottom: -30px;
+}
+
+.fa-solid {
+    margin-left: 96%;
+    padding-top: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.reactions {
+    margin: 0;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+.todo-left {
+    position: absolute;
+}
+
+.todo-right {
+    position: relative;
+    padding-left: 94%;
+}
+
+.fa-regular {
+    padding: 2px;
+}
+
+.likes {
+    position: relative;
+    margin-left: 8px;
+
+}
